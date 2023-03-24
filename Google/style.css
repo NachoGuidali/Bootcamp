@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    position: absolute;
+    font-size: 12px;
+    font-family: arial;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px;
+}
+.izquierda {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.derecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.img-header {
+    
+    width: 20px;
+    height: 20px;
+}
+
+.items-header {
+    text-decoration: none;
+    color: black;
+    margin-inline: 12px;
+       
+}
+
+#sesion{
+    color: white;
+    background-color: #2788f8;
+    padding: 7px;
+}
+
+.contenido {
+    
+    padding-top: 15rem;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.logo{
+    
+    width: 272px;
+    height: 92px;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 46px;
+    border: 2px;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: 20px;
+    
+}
+.buscador:hover{
+    background-color: rgb(214, 212, 212);
+}
+
+input{
+    width: 500px;
+    height: 35px;
+    border: none;
+    
+}
+input:hover{
+    background-color: rgb(214, 212, 212);
+}
+
+.lupa{
+    width: 20px;
+    height: 20px;
+}
+.mic{
+    width: 30px;
+    height: 30px;
+}
+button{
+    border: none;
+    margin: 2rem;
+    padding: 5px;
+    color: rgb(107, 107, 107);
+    border-radius: 30px;
+    
+}
+button:hover{
+    background-color: rgb(207, 207, 207);
+}
+.info-covid{
+    font-size: 12px;
+}
+.idiomas{
+    
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer{
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    bottom: 0px;
+    
+}
+.foot-derecha{
+    
+    float: right;
+    
+}   
+.fila{
+    margin-bottom: 10px;
+}
+.item-footer{
+    margin-inline: 10px;
+    text-decoration: none;
+    color: rgb(90, 89, 89);
+    font-size: 13px;
+}
+
+
